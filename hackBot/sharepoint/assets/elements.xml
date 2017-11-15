@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="bot Application Customizer 1"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="52028f15-03cb-4ad9-83d6-267db79a7e41"
+        ClientSideComponentProperties="{}">
+    </CustomAction>
+</Elements>

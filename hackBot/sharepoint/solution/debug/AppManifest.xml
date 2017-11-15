@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest" Name="hack-bot" ProductID="9a3c1cc3-1a22-45f4-a8ee-1359f296ca9a" Version="1.0.0.0" SharePointMinVersion="16.0.0.0" IsClientSideSolution="true" SkipFeatureDeployment="true"><Properties><Title>hack-bot</Title></Properties></App>

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hack-bot",
+    "id": "9a3c1cc3-1a22-45f4-a8ee-1359f296ca9a",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true,
+    "features": [
+      {
+        "title": "bot Extension",
+        "description": "",
+        "id": "52028f15-03cb-4ad9-83d6-267db79a7e41",
+        "version": "1.0.0.2",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }]
+  },
+  "paths": {
+    "zippedPackage": "solution/bot.sppkg"
+  }
+}

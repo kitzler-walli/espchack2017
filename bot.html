@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SharePoint Assistant</title>
+    <meta charset="utf-8" />
+</head>
+<script>
+    ImageSwitch=new Array();
+    ImageSwitch[0]='https://x.sharepoint.com/SiteAssets/bot1.png';
+    ImageSwitch[1]='https://x.sharepoint.com/SiteAssets/bot2.png';
+    ImageSwitch[2]='https://x.sharepoint.com/SiteAssets/bot3.png';
+    ImageSwitch[3]='https://x.sharepoint.com/SiteAssets/bot4.png';
+    function swapImage() 
+
+
+
+
+
+    
+    {
+        document.getElementById("botImage").setAttribute("src", ImageSwitch[Math.round(Math.random()*3)])
+    }  
+</script>
+<body style="font-family:'Segoe UI'">
+    <img style="height: 64px; width: 64px;" src="https://x.sharepoint.com/SiteAssets/bot.png" alt="Cool Bot"/>
+    <h1>SharePoint Assistant</h1>
+    <p>I do things.</p>
+
+    <iframe style="height: 300px;" src='https://webchat.botframework.com/embed'></iframe>
+</body>
+</html>

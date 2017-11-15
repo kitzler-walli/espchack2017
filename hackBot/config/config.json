@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "bot-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/bot/BotApplicationCustomizer.js",
+          "manifest": "./src/extensions/bot/BotApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BotApplicationCustomizerStrings": "lib/extensions/bot/loc/{locale}.js"
+  }
+}
